@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .acc{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hand{
+            width: 40vw;
+            }
+
+        .create{
+            margin: 36px 0px;
+            width: 50vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .in{
+            display: inline;
+
+        }
+
+        .in:hover{
+
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="navbar" style=" font-size:20px; display: flex; justify-content: space-between; align-items: center; padding: 4px 32px; margin:4px 24px;">
+
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.png" alt="" width="64px"></a>
+        </div>
+            <ul  style = "display: flex; list-style-type: none;
+            gap: 48px;
+            ">
+                <a class = "li" href = "careers.html">Careers</a>
+                <li class = "li">Resources</li>
+                <a class = "li" href = "contact.html">Contact Us</a>
+                <a class = "li" href = "signup.html">Sign Up</a>
+            </ul>
+    </div>
+
+
+
+
+<div class = "acc">
+
+
+    <div class="create">
+        <form action="">
+            <h1>Sign In</h1>
+            <h5>New User? Create a New Account</h5>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <input type="password" id="password" name="password" required placeholder="Password">
+            <p class = "in" style = "text-align: start; font-size: smaller;">forgot password?</p>
+            <button type="submit" style = "margin-top: 36px;">Continue</button>
+            <br>
+            <br>
+            <p  style="text-align: center;">-------or-------</p>
+            <h5 style="text-align: center;">Sign up with google</h5>
+        </form>
+
+
+    </div>
+
+
+    <div class = "hand">
+        <img src="images/hand.jpg" alt="" width="100%">
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<hr>
+    
+
+<footer style="max-width: 1440px; padding: 24px 48px;">
+    <div class="footer-columns">
+        <div class="column">
+            <h2>Vritti</h2>
+            <!-- You can replace the following with your logo -->
+            <img src="logo.png" alt="Vritti Logo" style="max-width: 100%; height: auto;">
+        </div>
+
+        <div class="column">
+            <h2>Company</h2>
+            <ul>
+                <li>About us</li>
+                <li>Careers</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Help and Info</h2>
+            <ul>
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2>Get Updates</h2>
+            <input type="text" placeholder="Enter your number">
+            <p>latest articles, schemes and news<br> staright to your phone</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

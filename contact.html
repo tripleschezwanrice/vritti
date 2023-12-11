@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vritti - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="navbar" style=" font-size:20px; display: flex; justify-content: space-between; align-items: center; padding: 4px 32px; margin:4px 24px;">
+
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.png" alt="" width="64px"></a>
+        </div>
+            <ul  style = "display: flex; list-style-type: none;
+            gap: 48px;
+            ">
+                <a class = "li" href = "careers.html">Careers</a>
+                <li class = "li">Resources</li>
+                <a class = "li" href = "contact.html">Contact Us</a>
+                <a class = "li" href = "signup.html">Sign Up</a>
+            </ul>
+    </div>
+
+
+
+    <h1 style="margin: 72px 0px  0px 64px">Contact Us</h1>
+
+    <h4 style="margin-left: 64px">Fill this form and we'll reach back to you</h4>
+
+    <div id="form" style = "margin : 12px 64px">
+        <form action="submit_form.php" method="post">
+            <div class="first">
+                <div style = "width:50%">
+                    <input type="text" id="name" name="name" required placeholder="Name" style="border-radius: 6px;">
+                </div>
+                <div style = "width:50%">
+                    <input type="tel" id="phone" name="phone" required placeholder="Number" style="border-radius: 6px;">
+                </div>
+            </div>
+
+            <div class="second">
+                <div style = "width:50%">
+                    <input type="email" id="email" name="email" required placeholder="Email" style="border-radius: 6px;">
+                </div>
+                <div style = "width:50%">
+                    <input type="date" id="counsellingDate" name="counsellingDate" required placeholder="Date" style="border-radius: 6px;">
+                </div>
+            </div>
+            <textarea id="comments" name="comments" rows="4" placeholder="Comments" style="border-radius: 6px;" cols = "30" rows = "30"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <br>
+    <hr>
+
+    <footer style="max-width: 1440px; padding: 24px 64px;">
+        <div class="footer-columns">
+            <div class="column">
+                <!-- You can replace the following with your logo -->
+                <img src="images/logo.png" alt="Vritti Logo" style="max-width: 100%; height: auto; width:128px">
+            </div>
+
+            <div class="column">
+                <h2>Company</h2>
+                <ul>
+                    <li>About us</li>
+                    <li>Careers</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h2>Help and Info</h2>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h2>Get Updates</h2>
+                <input type="text" placeholder="Enter your number">
+                <p>latest articles, schemes and news<br> staright to your phone</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
